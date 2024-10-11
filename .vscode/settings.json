@@ -1,0 +1,29 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "10.25.1.173",
+            "port": 2222,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "psql",
+            "group": "psql",
+            "database": "beecrowd",
+            "username": "chicogama"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "blog-api-challenge",
+            "group": "MySQL",
+            "database": "blogs_api_challenge",
+            "username": "root"
+        }
+    ]
+}
